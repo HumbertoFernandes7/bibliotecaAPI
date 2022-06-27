@@ -46,9 +46,9 @@ Para realizar o cadastro de um Livro utiliza-se o seguinte formato:
 Para realizar a atualização de um Autor utiliza-se o seguinte formato:
 + Url: http://localhost:8080/api/autores/atualizar/{id}
 
-  + "id": id,
-  + "nome": "Nome atualizado "
-  + "biografia":"Biografia atualizada",  
++ "id": id,
++ "nome": "Nome atualizado "
++ "biografia":"Biografia atualizada",  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
