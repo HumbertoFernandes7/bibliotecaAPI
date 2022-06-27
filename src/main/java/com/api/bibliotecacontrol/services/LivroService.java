@@ -9,11 +9,10 @@ import com.api.bibliotecacontrol.entities.LivroEntity;
 import com.api.bibliotecacontrol.repositories.LivroRepository;
 
 @Service
-public class CadastroLivro {
+public class LivroService {
 	//auto injeta a classe
 	@Autowired
 	private LivroRepository livroRepository;
-	
 	
 	public LivroEntity buscaLivroPorId(Long id) {
 		Optional<LivroEntity> encontrou = livroRepository.findById(id);

@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.api.bibliotecacontrol.entities.LivroEntity;
 import com.api.bibliotecacontrol.repositories.LivroRepository;
-import com.api.bibliotecacontrol.services.CadastroLivro;
+import com.api.bibliotecacontrol.services.LivroService;
 
 @RestController
 @RequestMapping("/api/livros")
@@ -27,7 +27,7 @@ public class LivroController {
 	private LivroRepository livroRepository;
 	
 	@Autowired
-	private CadastroLivro cadastroLivro;
+	private LivroService cadastroLivro;
 	
 	
 	// adicionar livro

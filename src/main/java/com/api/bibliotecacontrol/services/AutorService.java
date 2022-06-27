@@ -9,7 +9,7 @@ import com.api.bibliotecacontrol.entities.AutorEntity;
 import com.api.bibliotecacontrol.repositories.AutorRepository;
 
 @Service
-public class CadastroAutor {
+public class AutorService {
 	//auto injeta a classe
 	@Autowired
 	private AutorRepository autorRepository;

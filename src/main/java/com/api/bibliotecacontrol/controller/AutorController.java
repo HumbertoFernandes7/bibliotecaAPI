@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.api.bibliotecacontrol.entities.AutorEntity;
 import com.api.bibliotecacontrol.repositories.AutorRepository;
-import com.api.bibliotecacontrol.services.CadastroAutor;
+import com.api.bibliotecacontrol.services.AutorService;
 
 @RestController
 @RequestMapping("/api/autores")
 public class AutorController {
 	
 	@Autowired
-	private CadastroAutor cadastroAutor;
+	private AutorService cadastroAutor;
 	
 	@Autowired
 	private AutorRepository autorRepository;
