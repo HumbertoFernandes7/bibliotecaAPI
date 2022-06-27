@@ -13,11 +13,6 @@ public class CadastroAutor {
 	//auto injeta a classe
 	@Autowired
 	private AutorRepository autorRepository;
-	
-	//cadastra um autor no db
-	public AutorEntity cadastroAutor(AutorEntity autorEntity) {
-		return autorRepository.save(autorEntity);
-	}
 
 	public AutorEntity buscaAutorPorId(Long id) {
 		Optional<AutorEntity> encontrou = autorRepository.findById(id);
